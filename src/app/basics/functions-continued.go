@@ -2,10 +2,9 @@ package main
 
 import "fmt"
 
-func add(x, y int) int {
-  return x + y
-}
+var i, j int = 1, 2
 
 func main() {
-  fmt.Println(add(42, 13))
+  var c, python, java = true, false, "no!"
+  fmt.Println(i, j, c, python, java)
 }
